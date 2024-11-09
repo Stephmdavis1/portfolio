@@ -9,7 +9,7 @@ const SMF = () => {
 
   return (
     <>
-      <div className="port__container">
+      <div className="port__container_smf">
         <div className="smf__container1"></div>
         <div className="smf__container2">
           

@@ -1,4 +1,4 @@
-.port__container {
+.port__container_smf {
     background-color: var(--color-white);
     overflow-x: hidden;
 
@@ -440,14 +440,21 @@ video {
 
 
 @media only screen and (max-width: 600px) {
-    .sippers__container2 {
+
+    .smf__container2 {
         height: 50vh;
     }
 
-    .project__title {
-        font-size: 4rem;
-        left: 23%;
+    .smf__title {
+        font-size: 2rem;
+        left: 40%;
         transform: translate(-20%, -200%);
+    }
+    #hero_details1{
+        top: 0%;
+        left: 0%;
+        transform: translate(27%, 30%);
+        padding-right: 0%;
     }
 
 

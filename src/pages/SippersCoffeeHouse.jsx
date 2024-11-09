@@ -18,7 +18,7 @@ const SippersCoffeehouse = () => {
 
     return (
         <>
-            <div className='port__container'>
+            <div className='port__container_sippers'>
                 <div className='sippers__container1'>
                 </div>
                 <div className='sippers__container2'>

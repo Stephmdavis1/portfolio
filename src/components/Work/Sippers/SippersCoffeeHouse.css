@@ -1,4 +1,4 @@
-.port__container {
+.port__container_sippers {
     background-color: var(--color-white);
     overflow-x: hidden;
 
@@ -429,6 +429,13 @@ video {
 
 
 @media only screen and (max-width: 600px) {
+  .port__container_sippers{
+    height: 50vh;
+  }
+  
+    .sippers__container1{
+    height: 30vh;
+   }
     .sippers__container2 {
         height: 50vh;
     }
@@ -624,7 +631,7 @@ video {
 }
 
 
-@media only screen and (min-width: 900px) {
+/* @media only screen and (min-width: 900px) {
 
     .togglebutton {
         display: none;
@@ -641,4 +648,4 @@ video {
     #open .links {
         flex-direction: row;
     }
-}
+} */
