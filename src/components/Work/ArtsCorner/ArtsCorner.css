@@ -284,7 +284,7 @@ video {
 
 .brand__left_arts {
     font-size: 18px;
-    margin-top: 20px;
+    margin-top: 0px;
     margin-left: 0;
     padding-left: 0;
     text-align: center;
@@ -385,7 +385,7 @@ video {
     font-size: 18px;
     font-weight: 100;
     text-align: center;
-    margin-top: 15%;
+    margin-top: 0%;
     margin-left: 0;
     padding: 0;
 }
@@ -424,7 +424,7 @@ video {
     text-align: center;
     margin-left: 0;
     padding-left: 0;
-    margin-top: 3rem;
+    margin-top: 0rem;
 }
 
 .brand__title3_arts {
@@ -458,7 +458,7 @@ video {
 }
 .brand__right_arts {
     margin-bottom: 0;
-    margin-top: 1rem;
+    margin-top: 0rem;
    
 }
 }
