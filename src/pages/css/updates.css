@@ -1,0 +1,16 @@
+
+.update__container {
+    background-color: var(--color-bg-darkmode);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.splitter{
+    background-color: var(--color-bg-darkmode);
+    display: grid;
+    grid-template-columns: 1fr 2.2fr 1fr;
+    gap: 1.5em;
+    padding: 6em 2em;
+    /* margin: 0em 2em; */
+    
+}

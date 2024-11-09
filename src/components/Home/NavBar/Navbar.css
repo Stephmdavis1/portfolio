@@ -1,0 +1,122 @@
+
+.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    backdrop-filter: blur(1.5px);
+    -webkit-backdrop-filter: blur(1.5px);
+    background-color: var(--color-nav);
+    border-bottom: 1px var(--color-white) solid;
+    display: flex;
+ 
+}
+
+.nav__links {
+    display: flex;
+    justify-content: start;
+    gap: 3rem;
+
+}
+
+.cta__link {
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: var(--color-white);
+    border-bottom: 1px var(--color-bg-darkmode) solid;
+    border-top: 1px var(--color-bg-darkmode) solid;
+}
+
+.cta__link>a {
+    padding: 8px;
+    font-size: 15px;
+    color: var(--color-bg-darkmode);
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-weight: 400;
+    padding-right: 60px;
+    font-size: 15px;
+    gap: 1.5rem;
+    text-decoration: none;
+    
+}
+
+
+
+.links>a {
+    color: var(--color-white);
+    
+}
+
+.toggle{
+    right: 10px;
+    position: absolute;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    /* .navbar {
+        height: 12%;
+    }
+
+    .togglebutton {
+        width: 100%;
+        align-items: center;
+        justify-content: end;
+        display: flex;
+        height: .5rem;
+    }
+
+    .togglebutton svg {
+        margin-top: 4rem;
+        font-size: 40px;
+    }
+
+    #close a {
+        display: none;
+    }
+
+    #open {
+        height: 100px;
+    }
+
+    #open .links {
+        /* margin-top: 6rem; 
+        margin-left: 4rem;
+        flex-direction: row;
+        font-size: 20px;
+    } */
+
+    #open .cta__link {
+       background-color: none;
+       color: var(--color-white);
+    }
+    #close .cta__link {
+        display: none;
+    }
+
+    .hiddenLinks {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+    .togglebutton svg {
+        margin-top: 2rem;
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .links {
+        font-size: 13px;
+        gap: .7rem;
+    }
+}

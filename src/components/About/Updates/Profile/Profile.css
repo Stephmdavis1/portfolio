@@ -1,0 +1,124 @@
+.profile{
+    background-color: var( --color-updates-bg);
+    padding: 2em;
+    border-radius: 10px;
+    height: 90vh;
+    overflow: scroll;
+    box-shadow: 2px 2px 5px 1px rgba(24, 24, 24, 0.6);
+}
+
+.profile__container {
+    background-color: var( --color-darker);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 1px rgba(24, 24, 24, 0.6);
+}
+
+.profile__box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile_pic{
+    width: 30%;
+    border-radius: 10px;
+    transform: translate(0%, -50%);
+}
+
+.background_pic{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    height: 20vh;
+}
+
+.profile_header{
+    color: var(--color-white);
+    margin-top: 0;
+}
+
+.profile_title{
+    color: var( --color-updates-title);
+    font-size: 12px;
+}
+
+.profile_copy{
+    padding-top: 1rem;
+    color: var( --color-updates-title);
+    font-size: 14px;
+}
+
+.profile_button {
+    margin: 1rem;
+    background-color: var(--color-darker);
+    padding: .8rem 5rem;
+    color: var( --color-updates-title);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 1px rgba(24, 24, 24, 0.6);
+    font-size: 12px;
+}
+
+.skills_header{
+    font-size: 16px;
+    color: var(--color-white);
+    padding: 1rem 0rem .5rem;
+}
+
+.skill_button{
+    margin: .4rem .4rem .4rem 0rem;
+    background-color: var(--color-darker);
+    padding: .8rem 1.2rem;
+    color: var( --color-updates-title);
+    border-radius: 10px;
+    font-size: 12px;
+    box-shadow: 2px 2px 5px 1px rgba(24, 24, 24, 0.6);
+}
+
+
+.communities_box{
+    display: flex;
+    margin-bottom: 1em;
+    background-color: var(--color-darker);
+    padding: .8rem .5rem;
+    color: var(--color-light);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 1px rgba(24, 24, 24, 0.6);
+}
+
+.communities_box_left{
+    width: 30%;
+    border-radius: 30px;
+}
+
+.communities_box_left img{
+    border-radius: 10px;
+    
+}
+
+.communities_box_right{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   gap: .2rem;
+}
+
+.communities_header{
+    font-size: 16px;
+    color: var(--color-white);
+    padding: 1rem 0rem .5rem;
+}
+
+.communities_button{
+    padding: 0rem 1rem;
+    color: var( --color-updates-title);
+    font-size: 12px;
+    font-weight: 600;
+    
+}
+
+.communities_copy{
+    padding: 0rem 1rem;
+    color: var( --color-updates-primary);
+    font-size: 12px;
+   
+}

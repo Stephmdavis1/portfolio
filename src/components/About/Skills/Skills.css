@@ -1,0 +1,117 @@
+.skills__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+
+}
+
+.icons__container_desktop {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8em 0em 10em 0em;
+
+}
+.icons__container_mobile{
+  display: none;
+}
+
+.skills__header {
+  color: #171717;
+  font-size: 5rem;
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  font-weight: 800;
+  line-height: 1;
+  font-style: normal;
+  color: var(--color-white);
+  padding: 2rem;
+  text-align: center;
+}
+
+.skills__copy {
+  font-family: "Montserrat", sans-serif;
+  color: var(--color-primary-new);
+  font-size: 17px;
+  font-weight: 400;
+  margin-bottom: 10em;
+  line-height: 2;
+  text-align: center;
+}
+
+.skill_component {
+  color: var(--color-white);
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon_text{
+    text-align: center;
+}
+
+.skills__next{
+    padding: 4rem 0rem 4rem 0rem;
+    color: var(--color-white);
+    text-align: center;
+    font-size: 18px;
+}
+
+.skills_next_header{
+    color: var(--color-primary-new);
+    padding: 0rem 0rem 1rem 0rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  .skills__copy {
+    font-family: "Montserrat", sans-serif;
+    color: var(--color-primary-new);
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 1.3em;
+    line-height: 2;
+    text-align: center;
+  }
+
+  .icons__container_desktop {
+    display: none;
+  }
+
+  .icons__container_mobile {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+
+  }
+
+  .mobileicons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 4rem;
+  }
+  .skill_component {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+ 
+  .icon_text{
+    text-align: center;
+    font-size: 14px; 
+}
+}
+
+
+@media only screen and (max-width: 600px) {
+  .mobileicons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+  }
+}

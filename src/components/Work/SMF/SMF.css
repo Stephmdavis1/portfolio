@@ -1,0 +1,655 @@
+.port__container {
+    background-color: var(--color-white);
+    overflow-x: hidden;
+
+}
+
+/* ======== Hero Container ======== */
+.smf__container1 {
+    height: 100vh;
+    background-attachment: fixed;
+    background-image: url(../../../assets/ProjectsDataImages/SMF/DSC_1371.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.7)
+}
+
+.smf__container2 {
+    height: 60vh;
+}
+
+.smf__title {
+    font-size: 3.4rem;
+    font-weight: 700;
+    position: relative;
+    top: 0%;
+    left: 50%;
+    transform: translate(-20%, 50%);
+}
+
+.back__button {
+    margin-left: 10rem;
+    color: var(--color-bg);
+    text-transform: uppercase;
+    font-size: 73%;
+}
+
+#hero__details1 {
+    top: 0%;
+    left: 55%;
+    transform: translate(47%, 70%);
+    padding-right: 50px;
+    font-size: 1.2rem;
+}
+
+.herotitle__name {
+    font-weight: 400;
+    margin-left: 0;
+    font-size: 50%;
+}
+
+.para__1 {
+    font-size: 75%;
+    font-weight: 200;
+}
+
+.para__2_temple {
+    font-size: 75%;
+    font-weight: 200;
+    margin-bottom: 3em;
+}
+
+.smf_btn{
+    margin-top: 2rem;
+    
+}
+
+.para__3 {
+    font-size: 75%;
+    font-weight: 200;
+}
+
+
+/* ======= Brand Vision ======== */
+.brand__boxsmf {
+    background-color: var(--color-white);
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 1rem;
+    height: 115vh;
+    padding-top: 5.5rem;
+}
+
+.two {
+    padding-top: 2rem;
+    gap: 6rem;
+    grid-template-columns: 1.5fr 1fr;
+    height: 120vh;
+}
+
+.brand__leftsmf {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.brand__leftsmf>h3 {
+    font-size: 2em;
+    font-weight: 300;
+    padding-left: 10%;
+    margin-top: 20px;
+    line-height: 1;
+}
+
+.brand__leftsmf>img {
+    margin: 30px 0;
+    padding-left: 8%;
+}
+
+
+.brand__titlesmf {
+    font-size: 94%;
+    font-weight: 400;
+    margin-top: 100px;
+    padding-left: 0;
+    margin-left: 20px;
+}
+
+.brand__description{
+    margin: 20px 60px 20px 20px ;
+    margin-right: 60px;
+}
+
+.brand__description>p {
+    display: flex;
+    align-items: center;
+    font-weight: 200;
+}
+
+.brand__rightsmf {
+    margin-left: 60px;
+}
+
+.img__container {
+    height: 100vh;
+    background-color: #575757;
+}
+
+.brand__img2 {
+    height: 100vh;
+    background-attachment: fixed;
+    background-image: url(../../../assets/ProjectsDataImages/SMF/SMF4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ======== UX Research ========== */
+.brand__boxsmf {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    height: 110vh;
+    margin-top: 2.5rem;
+}
+
+
+.brand__rightsmf>h5 {
+    font-size: 94%;
+    font-weight: 400;
+    margin-top: 100px;
+    padding-left: 0;
+    margin-bottom: 20px;
+    
+}
+
+.brand__rightsmf>p {
+    font-weight: 200;
+}
+
+.chart {
+    width: 70%;
+    margin-left: 5rem;
+    margin-top: 2rem;
+   border-radius: 15px;
+}
+
+
+/* ======== Rebrand Container ========== */
+
+.rebrand__container1>h3 {
+    font-weight: 100;
+    padding-left: 5rem;
+    padding-top: 5%;
+}
+
+.rebrand__container1 h6 {
+    padding-bottom: 0;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    font-size: 90%;
+}
+
+.rebranding {
+    margin-top: .2rem;
+    margin-left: 5rem;
+    margin-bottom: 1.5rem;
+    margin-right: 5rem;
+    font-weight: 200;
+
+}
+
+.brand__img3 {
+    height: 100vh;
+    background-attachment: fixed;
+    background-image: url(../../../assets/ProjectsDataImages/SMF/SMFMockup.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.homepage__video1 {
+    width: 100vw;
+    margin-top: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #575757;
+}
+
+video {
+    height: 60vh;
+    width: 100%;
+}
+
+.brand__boxsmf {
+    background-color: var(--color-white);
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    height: 55%;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.smfbrand__title3 {
+    margin-right: 10%;
+    margin-left: 0%;
+    margin-bottom: 3em;
+}
+
+.brand__titlesmf3>p {
+    font-weight: 300;
+}
+
+/* @media only screen and (max-width: 1200px) {
+    .brand__right>p {
+        font-size: 15px;
+    }
+
+    .brand__right>h5 {
+        margin-top: 1rem;
+    }
+} */
+
+@media only screen and (max-width: 1000px) {
+
+    .togglebutton {
+        display: flex;
+    }
+
+    #close a {
+        display: none;
+    }
+
+    .sippers__container {
+        height: 40vh;
+    }
+
+    .project__title {
+        font-size: 7rem;
+        top: 0;
+        left: 30%;
+        transform: translate(-20%, -130%);
+    }
+
+    .back__button {
+        display: none;
+    }
+
+    /* .img__container {
+        height: 60vh;
+    } */
+
+    /* .brand__img1 {
+        height: 100%;
+        background-image: url(../assets/Mockups/sipperscoverreal.png);
+        background-size: contain;
+    } */
+
+    #hero__details {
+        top: 44%;
+        left: 15%;
+        font-size: 115%;
+    }
+
+    .herotitle__name {
+        display: none;
+    }
+
+    .ParallaxVideo {
+        height: 40vh;
+    }
+
+    .brand__box {
+        height: 75%;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+
+    }
+
+    .brand__leftsmf1>h3 {
+        font-size: 18px;
+        margin-top: 0;
+        margin-left: 0;
+        padding-left: 0;
+        text-align: center;
+    }
+
+
+
+    .brand__titlesmf2,
+    .brand__titlesmf3 {
+        font-size: 90%;
+        margin-top: 0;
+        padding-left: 0;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .brand__right {
+        margin-bottom: 0;
+    }
+
+    .brand__box_temple {
+        display: flex;
+        flex-direction: column;
+        height: 55vh;
+        padding: 0;
+
+    }
+
+    .brand__right>h5 {
+        font-size: 18px;
+        font-weight: 300;
+        text-align: center;
+        margin-left: 0;
+        padding-left: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .brand__right>p {
+        font-size: 16px;
+        margin-left: 0;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        text-align: center;
+        font-weight: 200;
+       
+
+    }
+
+    .brand__leftsmf1 img {
+        margin-left: 0;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        width: 100%;
+        margin-top: 0;
+    }
+
+   
+    .rebrand__container1>h3 {
+        font-size: 18px;
+        font-weight: 100;
+        text-align: center;
+        margin-top: 10%;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .rebrand__container1>h6 {
+        padding-bottom: 0;
+        margin-top: 1rem;
+        margin-left: 5rem;
+        font-size: 14px;
+        text-align: center;
+        margin-left: 0;
+        padding: 0;
+
+    }
+
+    .rebranding {
+        margin-top: .6rem;
+        margin-bottom: 1.5rem;
+        font-weight: 200;
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 16px;
+    }
+
+    .brand__box3 {
+        display: flex;
+        flex-direction: column;
+        height: 58vh;
+        margin-top: 0;
+    }
+
+    .brand__leftsmf1>h3 {
+        font-size: 18px;
+        font-weight: 300;
+        text-align: center;
+        margin-left: 0;
+        padding-left: 0;
+        margin-top: 3rem;
+    }
+
+    .brand__titlesmf3 {
+        margin-right: 0;
+
+    }
+
+    .brand__titlesmf3>p {
+        font-weight: 200;
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 16px;
+    }
+
+    .homepage__video {
+        padding-top: 0;
+        margin-top: 0;
+    }
+
+    video {
+        height: 45vh;
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .sippers__container2 {
+        height: 50vh;
+    }
+
+    .project__title {
+        font-size: 4rem;
+        left: 23%;
+        transform: translate(-20%, -200%);
+    }
+
+
+    .ParallaxVideo {
+        height: 20vh;
+    }
+
+    .togglebutton {
+        display: flex;
+    }
+
+    #close a {
+        display: none;
+    }
+
+    .back__button {
+        display: none;
+    }
+
+    .brand__box {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+
+    }
+
+    /* .img__container {
+        height: 40vh;
+        background-color: var(--color-bg-lightmode);
+    } */
+
+    /* .brand__img1 {
+        background-image: url(../assets/Mockups/sipperscoverreal.png);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+
+
+    } */
+
+
+    .brand__leftsmf1>h3 {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    #hero__details {
+        text-align: left;
+        line-height: 0;
+        /* padding-top: 40px;*/
+        margin-right: 100px;
+        font-size: 15px;
+        top: 80%;
+        left: 55%;
+        transform: translate(30%, 70%);
+    }
+
+    .herotitle__name {
+        display: none;
+    }
+
+    .brand__description>p {
+        font-size: 12px;
+        padding-right: 20px;
+    }
+
+    .para__1 {
+        line-height: 2;
+    }
+
+    .para__2 {
+        line-height: 2;
+        margin-top: 0;
+    }
+
+    .para__3 {
+        line-height: 2;
+        margin-top: 0;
+    }
+
+
+    .brand__titlesmf2,
+    .brand__titlesmf3 {
+        padding-left: 30px;
+    }
+
+    .brand__box_temple {
+        display: flex;
+        flex-direction: column;
+        height: 60vh;
+        margin-top: 0;
+    }
+
+    .brand__right>h5 {
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+        margin-left: 0;
+        padding-left: 2rem;
+        margin-top: 5%;
+    }
+
+    .brand__right>p {
+        font-size: 12px;
+        margin-left: 0;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        text-align: center;
+        font-weight: 200;
+
+    }
+
+    .brand__leftsmf1 img {
+        margin-left: 0;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        width: 100%;
+        margin-top: 0;
+
+    }
+
+    .rebrand__container1>h3 {
+        font-size: 16px;
+        font-weight: 100;
+        text-align: center;
+        margin-top: 0%;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .rebrand__container1 h6 {
+        padding-bottom: 0;
+        margin-top: 1rem;
+        margin-left: 5rem;
+        font-size: 14px;
+        text-align: center;
+        margin-left: 0;
+        padding: 0;
+
+    }
+
+    .rebranding {
+        margin-top: .6rem;
+        margin-bottom: 1.5rem;
+        font-weight: 200;
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 12px;
+    }
+
+    .brand__box3 {
+        display: flex;
+        flex-direction: column;
+        height: 45%;
+        margin-top: 0;
+    }
+
+    .brand__leftsmf1>h3 {
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+        margin-left: 0;
+        padding-left: 0;
+        margin-top: 2rem;
+    }
+
+    .brand__titlesmf3>p {
+        font-weight: 200;
+        font-size: 12px;
+    }
+
+    .homepage__video {
+        padding-top: 0;
+        margin-top: 0;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    video {
+        height: 15vh;
+        width: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 900px) {
+
+    .togglebutton {
+        display: none;
+    }
+
+    .hiddenLinks {
+        display: none;
+    }
+
+    #open {
+        height: 100px;
+    }
+
+    #open .links {
+        flex-direction: row;
+    }
+}

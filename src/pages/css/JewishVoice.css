@@ -1,0 +1,18 @@
+.box_container {
+    background-color: black;
+}
+
+.jewishvoice_container{
+    width: 100vw;
+   transform: translate(-10em, -30em);
+   background-color: black;
+}
+
+.jewishvoice_img {
+    background-color: black;
+    
+}
+
+.jv_back__button {
+    color: var(--color-white);
+}

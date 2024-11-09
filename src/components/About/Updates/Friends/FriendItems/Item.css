@@ -1,0 +1,32 @@
+.friend_item {
+    height: 8px;
+    margin-bottom: 1em;
+}
+
+/* 
+.ind-image{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    cursor: pointer;
+    border: 5px solid  red;
+} */
+
+.ind-image{
+    width: 60px;
+    height: 60px;
+    border: double .2em transparent;
+    border-radius: 100px;
+    background-image: linear-gradient(white, white), 
+                      linear-gradient(45deg,red,blue);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+
+.individual_name{
+    font-size: 8px;
+    color: var(--color-white);
+    text-align: center;
+    padding: .2rem;
+}

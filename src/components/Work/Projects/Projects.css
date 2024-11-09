@@ -1,0 +1,197 @@
+.project {
+  background-color: var(--color-bg-darkmode);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project__header {
+  text-align: center;
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: clamp(6rem, 40vw, 16rem);
+  line-height: 0.9;
+  padding: 8rem 0 5rem;
+  color: var(--color-white);
+}
+
+.copy__header {
+  padding: 0rem 15rem;
+  text-align: center;
+  font-style: normal;
+  font-size: 1.2rem;
+  font-weight: 200;
+  color: var(--color-white);
+  margin: 0rem 0rem 7rem;
+}
+
+.project__pills {
+  margin: 0.6rem;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.project__pills li {
+  font-size: 1rem;
+  margin-right: 3rem;
+  padding: 0.5rem 0.6rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin-bottom: 4rem;
+  color: var(--color-white);
+}
+
+.active {
+  background-color: var( --color-light);
+  color: var(--color-white);
+  border: none;
+}
+
+/* Projects Container */
+.container__project {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.item {
+  border: 0.1rem var(--color-darker) solid;
+  cursor: pointer;
+  transform: none !important;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.project__name {
+  text-align: center;
+  font-size: 2rem;
+  color: var(--color-white);
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.project__img {
+  width: 100%;
+  height: 19em;
+  object-fit: cover;
+  z-index: 1;
+  margin-bottom: 20px;
+  border: 20px solid transparent;
+  transition: all .5s ease-in-out;
+}
+
+.project__img:hover{
+  transform: scale(1.03);
+}
+
+.item:hover {
+  transition: none;
+}
+
+ 
+
+
+.project__button {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+
+}
+
+.project__button1, .project__button2 {
+  margin: 10px 0px 20px;
+  color: var(--color-white);
+  font-size: 14px;
+  border: 1px var(--color-white) solid;
+  padding: 5px 10px;
+  width: 30%;
+  text-align: center;
+}
+
+.project__button1:hover, .project__button2:hover{
+color: var(--color-light);
+background-color: transparent;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+  .project__pills li {
+    margin-right: 19px;
+    padding: 6px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+
+  .project__header {
+    margin-top: 0;
+    font-size: 10rem;
+  }
+
+  .copy__header {
+    padding: 0rem 3rem;
+    text-align: center;
+    font-style: normal;
+    font-size: 1.1rem;
+    margin: 0rem 0rem 4rem;
+  }
+
+  .project__button1, .project__button2 {
+    font-size: 12px;
+  }
+  
+}
+
+@media only screen and (max-width: 1000px) {
+  .project__pills li {
+    font-size: 14px;
+    margin-right: 10px;
+    padding: 2px 4px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 0px;
+    flex-wrap: wrap;
+  }
+  .container__project {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .project__pills li {
+    font-size: 12px;
+    margin-right: 10px;
+    padding: 2px 4px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 0px;
+    flex-wrap: wrap;
+  }
+
+  .container__project {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+ @media only screen and (max-width: 500px) {
+  .project__pills li {
+    font-size: 10px;
+    margin-right: 8px;
+    padding: 2px 4px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 0px;
+  }
+} 

@@ -1,0 +1,75 @@
+.contact__container {
+  background-color: var(--color-light);
+  text-align: center;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact__header {
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 5rem;
+  color: var(--color-bg-variant);
+  text-align: center;
+  margin-top: 3rem;
+  
+}
+
+.contact__copy {
+  margin-bottom: 2rem;
+  color: var(--color-bg-variant);;
+}
+
+.contact__message {
+  text-align: center;
+  color: var(--color-bg-variant);
+  text-decoration: underline;
+  margin-bottom: 3rem;
+  font-style: italic;
+}
+
+.contact__message:hover {
+  color: var(--color-primary-new);
+}
+
+.hello__socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.hello__social__title{
+    color: var(--color-bg-variant);
+    font-weight: 800;
+
+}
+
+.social__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.hello__social__copy{
+    padding: .5rem 0rem;
+    color: var(--color-bg-variant);
+}
+
+.social__icon{
+    color: var(--color-bg-variant);
+    margin-right: 1rem;
+}
+
+hr {
+    color: var(--color-primary-new);
+    height: .5rem;
+    width: 15vw;
+}
