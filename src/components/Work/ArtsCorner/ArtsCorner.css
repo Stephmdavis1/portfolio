@@ -348,7 +348,7 @@ video {
 .brand__box2_arts {
     display: flex;
     flex-direction: column;
-    height: 67vh;
+    height: 70vh;
     padding: 0;
 
 }
@@ -373,12 +373,12 @@ video {
 }
 
 .brand__left_arts img {
-    margin-left: 4rem;
+    margin-left: 0rem;
     padding-left: 0rem;
     padding-right: 0rem;
     margin-top: 0;
     width: 60%;
-   transform: translate(20%, 0%);
+   transform: translate(30%, 0%);
 }
 
 .rebrand__container_arts>h3 {
