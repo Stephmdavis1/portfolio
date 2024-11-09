@@ -1,6 +1,6 @@
 import IMG7 from "../../../../assets/ProjectsDataImages/Mockups/SippersCoffeeHouse.png";
 import IMG8 from "../../../../assets/ProjectsDataImages/Mockups/SMF.png";
-import IMG9 from "../../../../assets/ProjectsDataImages/Mockups/temple.png";
+import IMG9 from "../../../../assets/ProjectsDataImages/Mockups/Temple.png";
 import IMG10 from "../../../../assets/ProjectsDataImages/Mockups/SMDPortfolio2.0.png";
 import IMG13 from "../../../../assets/ProjectsDataImages/Mockups/SR.png";
 import IMG14 from "../../../../assets/ProjectsDataImages/Mockups/ArtsCorner.png";
