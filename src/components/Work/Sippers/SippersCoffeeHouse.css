@@ -19,7 +19,7 @@
     height: 60vh;
 }
 
-.project__title {
+.project__title_sippers {
     font-size: 9.4rem;
     font-weight: 700;
     position: relative;
@@ -35,7 +35,7 @@
     font-size: 73%;
 }
 
-#hero__details {
+#hero__details_sippers {
     top: 80%;
     left: 55%;
     transform: translate(47%, 140%);
@@ -81,7 +81,7 @@
 }
 
 /* ======= Brand Vision ======== */
-.brand__box {
+.brand__box_sippers {
     background-color: var(--color-bg-lightmode);
     display: grid;
     grid-template-columns: 1fr 1.5fr;
@@ -90,7 +90,7 @@
     padding-top: 5.5rem;
 }
 
-.brand__left>h3 {
+.brand__left_sippers>h3 {
     font-size: 156%;
     font-weight: 300;
     padding-left: 10%;
@@ -105,12 +105,12 @@
     margin-left: 0;
 }
 
-.brand__description{
+.brand__description_sippers{
     margin-top: 10px;
     margin-right: 60px;
 }
 
-.brand__description>p {
+.brand__description_sippers>p {
     display: flex;
     align-items: center;
     font-weight: 200;
@@ -118,11 +118,11 @@
 
 }
 
-.brand__left {
+.brand__left_sippers {
     margin: 0;
 }
 
-.brand__right {
+.brand__right_sippers {
     margin-bottom: 0;
 }
 
@@ -131,7 +131,7 @@
     background-color: var(--color-);
 }
 
-.brand__img1 {
+.brand__img1_sippers {
     height: 100vh;
     background-attachment: fixed;
     background-image: url(../../../assets/ProjectsDataImages/Sippers/sipperscoverreal.png);
@@ -148,19 +148,19 @@
     margin-top: 2.5rem;
 }
 
-.brand__right>h5 {
+.brand__right2_sippers {
     font-size: 156%;
     font-weight: 300;
     padding-left: 5rem;
     margin-top: 2rem;
 }
 
-.brand__right>p {
+.brand__right_sippers>p {
     padding-left: 5rem;
     font-weight: 300;
 }
 
-.brand__left img {
+.brand__left_sippers img {
     width: 80%;
     margin-left: 5rem;
     margin-top: 6rem;
@@ -169,20 +169,20 @@
 
 /* ======== Rebrand Container ========== */
 
-.rebrand__container>h3 {
+.rebrand__container_sippers>h3 {
     font-weight: 100;
     padding-left: 5rem;
     padding-top: 2%;
 }
 
-.rebrand__container h6 {
+.rebrand__container_sippers h6 {
     padding-bottom: 0;
     margin-top: 1rem;
     margin-left: 5rem;
     font-size: 90%;
 }
 
-.rebranding {
+.rebranding_sippers {
     margin-top: .2rem;
     margin-left: 5rem;
     margin-bottom: 1.5rem;
@@ -239,35 +239,30 @@ video {
         display: none;
     }
 
-    .sippers__container {
+    .sippers__container2 {
         height: 40vh;
     }
 
-    .project__title {
-        font-size: 7rem;
-        top: 0;
-        left: 30%;
-        transform: translate(-20%, -130%);
+    .project__title_sippers {
+        font-size: 5rem;
+        top: 0%;
+        left: 0%;
+        transform: translate(10%, 0%);
     }
 
     .back__button {
         display: none;
     }
 
-    /* .img__container {
-        height: 60vh;
-    } */
 
-    /* .brand__img1 {
-        height: 100%;
-        background-image: url(../assets/Mockups/sipperscoverreal.png);
-        background-size: contain;
-    } */
-
-    #hero__details {
-        top: 44%;
-        left: 15%;
-        font-size: 115%;
+    #hero__details_sippers {
+        text-align: left;
+        padding-left: 50px;
+        margin-right: 0px;
+        font-size: 18px;
+        top: 40%;
+        left: 0%;
+        transform: translate(0%, 0%);
     }
 
     .herotitle__name {
@@ -278,7 +273,7 @@ video {
         height: 40vh;
     }
 
-    .brand__box {
+    .brand__box_sippers {
         height: 75%;
         display: flex;
         flex-direction: column;
@@ -286,39 +281,64 @@ video {
 
     }
 
-    .brand__left>h3 {
+    .brand__left_sippers {
         font-size: 18px;
-        margin-top: 0;
+        margin-top: 20px;
         margin-left: 0;
         padding-left: 0;
         text-align: center;
     }
 
-    .brand__description>p {
+    .brand__left_sippers>h3 {
+        font-size: 100%;
+        font-weight: 400;
+        padding-left: 0;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .brand__description_sippers{
+        margin-top: 5px;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    .brand__description_sippers>p {
         margin-left: 0;
         padding-left: 20px;
         padding-right: 20px;
         text-align: center;
         font-size: 16px;
     }
+    
+    .img__container_sippers{
+        height: 80vh;
+    }
 
-    .brand__right>p {
+
+    .brand__right_sippers>p {
         font-size: 90%;
         margin-top: 0;
+        margin-bottom: 10px;
         padding-left: 0;
         font-weight: 400;
     }
 
-    .brand__title2,
+    .brand__title2_sippers{
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+    }
+
     .brand__title3 {
-        font-size: 90%;
+        font-size: 20px;
         margin-top: 0;
         padding-left: 0;
         font-weight: 400;
         text-align: center;
     }
 
-    .brand__right {
+    .brand__right_sippers {
         margin-bottom: 0;
     }
 
@@ -330,7 +350,7 @@ video {
 
     }
 
-    .brand__right>h5 {
+    .brand__right2_sippers {
         font-size: 18px;
         font-weight: 300;
         text-align: center;
@@ -339,7 +359,7 @@ video {
         margin-bottom: 2rem;
     }
 
-    .brand__right>p {
+    .brand__right_sippers>p {
         font-size: 16px;
         margin-left: 0;
         padding-left: 2rem;
@@ -349,7 +369,7 @@ video {
 
     }
 
-    .brand__left img {
+    .brand__left_sippers img {
         margin-left: 0;
         padding-left: 2rem;
         padding-right: 2rem;
@@ -357,16 +377,16 @@ video {
         margin-top: 0;
     }
 
-    .rebrand__container>h3 {
+    .rebrand__container_sippers>h3 {
         font-size: 18px;
         font-weight: 100;
         text-align: center;
-        margin-top: 10%;
+        margin-top: 15%;
         margin-left: 0;
         padding: 0;
     }
 
-    .rebrand__container>h6 {
+    .rebrand__container_sippers>h6 {
         padding-bottom: 0;
         margin-top: 1rem;
         margin-left: 5rem;
@@ -377,14 +397,14 @@ video {
 
     }
 
-    .rebranding {
+    .rebranding_sippers {
         margin-top: .6rem;
         margin-bottom: 1.5rem;
         font-weight: 200;
         text-align: center;
-        margin-left: 20px;
-        margin-right: 20px;
         font-size: 16px;
+        margin-left: 30px;
+        margin-right: 30px;
     }
 
     .brand__box3 {
@@ -426,24 +446,32 @@ video {
         width: 100%;
     }
 }
+ 
+@media only screen and (max-width: 600px) {
+    .img__container_sippers{
+        height: 50vh;
+    }
+}
 
 
+/* 
 @media only screen and (max-width: 600px) {
   .port__container_sippers{
-    height: 50vh;
+    height: 100vh;
   }
   
     .sippers__container1{
-    height: 30vh;
+    height: 60vh;
    }
     .sippers__container2 {
         height: 50vh;
     }
 
-    .project__title {
+    .project__title_sippers {
         font-size: 4rem;
-        left: 23%;
-        transform: translate(-20%, -200%);
+        top: 0;
+        left: 20%;
+        transform: translate(0%, 0%);
     }
 
 
@@ -463,27 +491,16 @@ video {
         display: none;
     }
 
-    .brand__box {
+    .brand__box_sippers {
         height: 100%;
         display: flex;
         flex-direction: column;
         padding: 0;
+     
 
     }
 
-    /* .img__container {
-        height: 40vh;
-        background-color: var(--color-bg-lightmode);
-    } */
 
-    /* .brand__img1 {
-        background-image: url(../assets/Mockups/sipperscoverreal.png);
-        background-size: cover;
-        background-position: center;
-        height: 100vh;
-
-
-    } */
 
 
     .brand__left>h3 {
@@ -491,16 +508,17 @@ video {
         text-align: center;
     }
 
-    #hero__details {
+    #hero__details_sippers {
         text-align: left;
         line-height: 0;
-        /* padding-top: 40px;*/
+        
         margin-right: 100px;
         font-size: 15px;
-        top: 80%;
-        left: 55%;
-        transform: translate(30%, 70%);
+        top: 40%;
+        left: 0%;
+        transform: translate(30%, 10%);
     }
+
 
     .herotitle__name {
         display: none;
@@ -628,7 +646,7 @@ video {
         height: 15vh;
         width: 100%;
     }
-}
+} */
 
 
 /* @media only screen and (min-width: 900px) {

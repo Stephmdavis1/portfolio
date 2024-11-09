@@ -261,7 +261,7 @@ video {
         display: none;
     }
 
-    .sippers__container {
+    .smf__container2 {
         height: 40vh;
     }
 
@@ -276,15 +276,7 @@ video {
         display: none;
     }
 
-    /* .img__container {
-        height: 60vh;
-    } */
 
-    /* .brand__img1 {
-        height: 100%;
-        background-image: url(../assets/Mockups/sipperscoverreal.png);
-        background-size: contain;
-    } */
 
     #hero__details {
         top: 44%;
@@ -482,20 +474,7 @@ video {
 
     }
 
-    /* .img__container {
-        height: 40vh;
-        background-color: var(--color-bg-lightmode);
-    } */
-
-    /* .brand__img1 {
-        background-image: url(../assets/Mockups/sipperscoverreal.png);
-        background-size: cover;
-        background-position: center;
-        height: 100vh;
-
-
-    } */
-
+   
 
     .brand__leftsmf1>h3 {
         margin-top: 0;
