@@ -1,4 +1,4 @@
-import './item.css'
+import './Item.css'
 
 export default function Item(props) {
   return (
