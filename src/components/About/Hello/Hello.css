@@ -8,7 +8,7 @@
 
 
 .greeting {
-  font-size: 16rem;
+  font-size: 14rem;
   font-family: "Alumni Sans Pinstripe", sans-serif;
   font-weight: 800;
   font-style: normal;
@@ -217,6 +217,9 @@ padding: 0rem 3rem;
     font-weight: 300;
     line-height: 2;
     text-align: left;
+  }
+  .greeting {
+    font-size: 10rem;
   }
 
 }

@@ -139,3 +139,11 @@
 }
 
 }
+
+@media only screen and (max-width: 700px) {
+    
+    .greeting {
+      font-size: 10rem;
+    }
+  
+  }
