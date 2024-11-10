@@ -11,8 +11,8 @@ const BlogDetails = () => {
   let { id } = useParams();
 
   const client = createClient({
-    space: import.meta.env.VITE_SPACE_KEY,
-    accessToken: import.meta.env.VITE_CONTENT_API_KEY,
+    space: import.meta.env.VITE_SPACE_ID,
+    accessToken: import.meta.env.VITE_CONTENT_DELIVERY_API_KEY,
   });
 
   useEffect(() => {
