@@ -1,6 +1,7 @@
 
 import smfbackground from "../assets/ProjectsDataImages/SMF/DSC_1559  2.png";
 import steph from "../assets/ProjectsDataImages/SMF/steph.png";
+import background_pic_steph from "../assets/ProjectsDataImages/SMF/SMFMockup.png";
 import SMFMockup from "../assets/ProjectsDataImages/SMF/IMG_2545.png";
 import "../components/Work/SMF/SMF.css";
 
@@ -11,6 +12,7 @@ const SMF = () => {
     <>
       <div className="port__container_smf">
         <div className="smf__container1"></div>
+        <div className="smf__container3"></div>
         <div className="smf__container2">
           
             <h1 className="smf__title">Stephanie Marie Fitness</h1>
@@ -18,7 +20,7 @@ const SMF = () => {
           <a href="/work" className="back__button">
             back to all projects
           </a>
-          <div id="hero__details1">
+          <div id="hero__details_smf">
             <h4 className="herotitle__name">Stephanie Marie Fitness </h4>
             <p className="para__1">
               <i>Noun:</i> Stephanie Marie Fitness is all about helping people become the best version of themselves.
@@ -32,14 +34,14 @@ const SMF = () => {
         </div>
       </div>
 
-      <div className="brand__boxsmf">
-        <div className="brand__leftsmf">
+      <div className="brand__box_smf">
+        <div className="brand__left_smf">
           <h3>The Process</h3>
           <img className="img_steph" src={steph} alt="Stephanie Marie holding a coffee mug" />
         </div>
-        <div className="brand__right">
-          <h6 className="brand__titlesmf">How it started</h6>
-          <div className="brand__description">
+        <div className="brand__right_smf">
+          <h6 className="brand__right2_smf">How it started</h6>
+          <div className="brand__description_smf">
             <p>
               I was in the fitness industry for over 10 years. Being in the industry for so long allowed me to really find a love and passion for writing effective and challenging workout programs. I still have many individuals reaching out to ask if I could write them a plan. So I decided to build a website where I can sell all of my programs to anyone who is looking to challenge themselves and to work on becoming the best version they can be.
             </p>
@@ -57,10 +59,11 @@ const SMF = () => {
         <img className="brand__img2" alt="" />
       </div> */}
 
-      <div className="port__container">
-        <div className="brand__boxsmf two">
-          <div className="brand__rightsmf">
-          <h5>The Cart Feature</h5>
+      <div className="port__container_smf">
+        <div className="brand__box_smf2">
+          <div className="brand__right_smf">
+          <h5 className="brand__right2_smf">The Cart Feature</h5>
+          <div className="brand__description_smf">
             <p>
             Building the cart functionality was definitely the most difficult part of this e-commerce website. This was the first time I was including a back end to a web app so the amount of research I did was a lot. There were so many ways that I could have included into this build: APIs and hosting on other websites and then linking it to my domain. Although it was a challenge, the knowledge I gained from it was amazing.
             </p>
@@ -69,8 +72,9 @@ const SMF = () => {
             <br />
             <p>Using other software like EmailJS, Stripe's receipt function and building my own server using Node I was able to build a beautiful e-commerce site that is properly functioning and created with the user in mind.
         </p>
+        </div>
           </div>
-          <div className="brand__leftsmf1">
+          <div className="brand__left_smf1">
             <img src={SMFMockup} alt="chart of users" className="chart" />
           </div>
         </div>
@@ -79,16 +83,16 @@ const SMF = () => {
         </div>
 
         <div className="img__container">
-          <img className="brand__img3" alt="" />
+          <img src={background_pic_steph} alt="" />
         </div>
 
 
-        <div className="brand__boxsmf">
-          <div className="brand__leftsmf">
-            <h3>The Conclusion</h3>
+        <div className="brand__box_smf3">
+          <div className="brand__left_smf3">
+            <h3 className="brand__right2_smf">The Conclusion</h3>
           </div>
-          <div className="brand__right">
-            <article className="smfbrand__title3">
+          <div className="brand__right_smf2">
+            <article className="brand__description_smf">
               <p>
               Creating a user-centered design for Stephanie Marie Fitness was both a challenging and a rewarding experience. The final UI design was modern, vibrant, and consistent. This provided users with a seamless and enjoyable experience when purchasing from my website. I love how the
                 website takes a new client through the process of finding a workout program and allowing them to purchase it without leaving the webpage. This responsive website evolved and expanded to include
