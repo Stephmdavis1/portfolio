@@ -92,7 +92,7 @@
 
 /* ======= Brand Vision ======== */
 .brand__box_temple, .brand__box_temple2 {
-    background-color: var(--color-bg-lightmode);
+    
     display: grid;
     grid-template-columns: 1fr 1.5fr;
     gap: 1rem;
