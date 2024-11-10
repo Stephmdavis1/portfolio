@@ -5,8 +5,8 @@ import './BlogLists.css'
 
 const BlogList = () => {
   const [blogPosts, setBlogPosts] = useState([])
-  const client = createClient({ space: import.meta.env.VITE_SPACE_KEY, accessToken: import.meta.env.VITE_CONTENT_API_KEY })
-//   const client = createClient({ space: "9cbe8t5ezxep", accessToken: "nAs6nVtKP9k0ZKhD-M8PBRhrwd-UNxWLi6GciYQg0Cw" })
+  const client = createClient({ space: import.meta.env.VITE_SPACE_ID, accessToken: import.meta.env.VITE_CONTENT_DELIVERY_API_KEY })
+
 
 
   useEffect(() => {
