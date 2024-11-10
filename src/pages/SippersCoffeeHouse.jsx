@@ -22,6 +22,8 @@ const SippersCoffeehouse = () => {
             <div className='port__container_sippers'>
                 <div className='sippers__container1'>
                 </div>
+                <div className='sippers__container3'>
+                </div>
                 <div className='sippers__container2'>
                     <h1 className='project__title_sippers'>Sippers</h1>
                     <a href="/work" className='back__button'>back to all projects</a>

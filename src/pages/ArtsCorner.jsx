@@ -18,6 +18,7 @@ const ArtsCorner = () => {
     <>
       <div className="port__container_arts">
         <div className="arts__container1"></div>
+        <div className="arts__container3"></div>
         <div className="arts__container2">
           
             <h2 className="project__title_arts">Arts Corner</h2>

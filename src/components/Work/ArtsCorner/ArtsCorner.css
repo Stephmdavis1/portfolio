@@ -14,6 +14,9 @@
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.7)
 }
+.arts__container3 {
+    display: none;
+}
 
 .arts__container2 {
     height: 60vh;
@@ -238,6 +241,16 @@ video {
 
     #close a {
         display: none;
+    }
+    .arts__container1{
+        display: none;
+    }
+    .arts__container3 {
+        display: block;
+        height: 30vh;
+        background-image: url(../../../assets/ProjectsDataImages/Mockups/arts_screen2.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
     }
 
 .arts__container2 {
