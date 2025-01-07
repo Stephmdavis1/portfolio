@@ -5,7 +5,7 @@ export default function GiveCleanWater() {
     return (
         <>
         <div className="page">
-             <img src={cleanwater} alt="" />
+             <img src={cleanwater} alt="" className="email_img" />
         </div>
    
         </>

@@ -459,7 +459,7 @@ video {
         width: 100%;
     }
 }
-@media only screen and (max-width: 7500px) {
+@media only screen and (max-width: 750px) {
     .img__container_sippers{
         height: 60vh;
     }
