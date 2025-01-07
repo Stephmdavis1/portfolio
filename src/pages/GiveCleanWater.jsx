@@ -1,10 +1,13 @@
 import cleanwater from "../assets/ProjectsDataImages/Mockups/GiveCleanWater.png"
-
+import "./css/background.css";
 
 export default function GiveCleanWater() {
     return (
         <>
-        <img src={cleanwater} alt="" />
+        <div className="page">
+             <img src={cleanwater} alt="" />
+        </div>
+   
         </>
     )
 }
