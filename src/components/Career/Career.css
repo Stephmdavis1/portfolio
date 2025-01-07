@@ -154,7 +154,7 @@
       margin: 10rem 0rem 8rem;
     }
     .hello_header1 {
-      font-size: 1.5rem;
+      font-size: 1rem;
     }
     .hello_paragraph_career {
       padding: 2rem 1rem 1rem;
@@ -176,6 +176,9 @@
   }
   .goals{
     padding: 1rem 1rem 0rem;
+}
+.hello__pic3{
+  height: 20em; 
 }
 .hello__pic4{
   margin: 1rem 1rem 0rem 1rem; 
