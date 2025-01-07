@@ -469,7 +469,7 @@ video {
         height: 50vh;
     }
     .brand__right{
-        margin-bottom: 0em;
+        margin-bottom: 0em !important;
 
     }
     .img__container_sippers{
