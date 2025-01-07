@@ -25,7 +25,7 @@ const SMF = () => {
             <p className="para__1">
               <i>Noun:</i> Stephanie Marie Fitness is all about helping people become the best version of themselves.
             </p>
-            <p className="para__2_temple">
+            <p className="para__2">
               <i>Role:</i> Front End Developer / Designer / Photographer / Back End Developer
               <br />
               <a href="https://sm-fitness.vercel.app" target="_blank" className="btn2 smf_btn">Visit Website</a>
