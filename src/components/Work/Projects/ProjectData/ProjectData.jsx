@@ -157,7 +157,7 @@ export const EmailMarketing = [
   },
   {
     id: 13,
-    title: "Pardot Landing Page Buildout",
+    title: "Qgiv Donation Page",
     img: IMG12,
     code: "/pardot",
   },
