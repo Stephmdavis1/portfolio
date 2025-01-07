@@ -63,6 +63,12 @@ export const all = [
     img: IMG13,
     code: "/waterday",
   },
+  {
+    id: 10,
+    title: "Pardot Landing Page Buildout",
+    img: IMG13,
+    code: "/pardot",
+  },
 ];
 
 export const WebProjects = [
