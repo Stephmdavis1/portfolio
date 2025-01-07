@@ -151,9 +151,9 @@
 
 @media screen and (max-width: 650px) {
   .title__container {
-      font-size: 7rem;
+      font-size: 6.5rem;
       line-height: 1;
-      top: 15%;
+      top: 18%;
   }
 
   .subtitle__container {
@@ -167,9 +167,9 @@
 
 @media screen and (max-width: 554px) {
   .title__container {
-      font-size: 5rem;
+      font-size: 4.5rem;
       line-height: 1;
-      top: 25%;
+      top: 26%;
   }
   .subtitle__container {
     font-size: 5rem;

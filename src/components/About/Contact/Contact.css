@@ -76,7 +76,7 @@ hr {
 
 @media only screen and (max-width: 1000px) {
   .contact__copy {
-   margin: 2rem;
+   margin: 0rem 2rem 2rem 2rem;
   }
 
 }
