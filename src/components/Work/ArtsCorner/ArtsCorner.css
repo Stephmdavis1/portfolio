@@ -475,3 +475,13 @@ video {
    
 }
 }
+
+
+@media only screen and (max-width: 4500px) {
+.project__title_arts{
+font-size: 3rem;
+}
+.brand__box2_arts {
+    height: 85vh;
+}
+}
