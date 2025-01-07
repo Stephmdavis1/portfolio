@@ -533,3 +533,19 @@ video {
    
 }
 }
+
+@media only screen and (max-width: 450px) {
+.temple__title{
+    margin-left: 0rem;
+}
+#hero__details1_temple{
+    padding-left: 20;
+}
+.temple_btn{
+    margin-top: .5rem;
+}
+
+.brand__right_temple3 {
+    margin-bottom: 10em;
+}
+}
