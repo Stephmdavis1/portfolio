@@ -15,6 +15,7 @@ import Resume from "./pages/Resume.jsx"
 import NewProject from "./pages/NewProject.jsx"
 import BlogLists from "./components/Blog/BlogLists.jsx"
 import BlogDetails from "./components/Blog/BlogDetails.jsx"
+import Pardot from "./pages/pardot.jsx"
 
 
 
@@ -40,6 +41,7 @@ function App() {
           <Route path="/NewProject" element={<NewProject />} />
           <Route path="/BlogDetails/:id" element={<BlogDetails />} />
           <Route path="/BlogLists" element={<BlogLists />} />
+          <Route path="/Pardot" element={<Pardot />} />
         </Routes>
       </BrowserRouter>
      
