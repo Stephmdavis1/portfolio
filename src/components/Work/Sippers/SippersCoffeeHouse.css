@@ -459,13 +459,34 @@ video {
         width: 100%;
     }
 }
- 
+@media only screen and (max-width: 7500px) {
+    .img__container_sippers{
+        height: 60vh;
+    }
+}
 @media only screen and (max-width: 600px) {
     .img__container_sippers{
         height: 50vh;
     }
+    .brand__right{
+        margin-bottom: 0em;
+
+    }
+    .img__container_sippers{
+        height: 40vh
+    }
+    
 }
 
+@media only screen and (max-width: 450px) {
+    .brand__box2{
+        margin-top: 0rem;
+    }
+    .brand__box3{
+        display: flex;
+    }
+
+}
 
 /* 
 @media only screen and (max-width: 600px) {
