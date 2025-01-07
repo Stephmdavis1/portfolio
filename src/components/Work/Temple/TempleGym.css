@@ -525,6 +525,7 @@ video {
 
 @media only screen and (max-width: 650px) {
 .temple__title{
+    font-size: 1.5rem;
     margin-left: 0rem;
 }
 .img__container_temple img{
