@@ -65,7 +65,7 @@ export const all = [
     code: "/waterday",
   },
   {
-    id: 10,
+    id: 13,
     title: "Pardot Landing Page Buildout",
     img: IMG12,
     code: "/pardot",
@@ -156,7 +156,7 @@ export const EmailMarketing = [
     code: "/waterday",
   },
   {
-    id: 10,
+    id: 13,
     title: "Pardot Landing Page Buildout",
     img: IMG12,
     code: "/pardot",
