@@ -6,7 +6,7 @@ import IMG13 from "../../../../assets/ProjectsDataImages/Mockups/SR.png";
 import IMG14 from "../../../../assets/ProjectsDataImages/Mockups/ArtsCorner.png";
 import IMG15 from "../../../../assets/ProjectsDataImages/Mockups/JVMI.png";
 import IMG16 from "../../../../assets/ProjectsDataImages/Mockups/SR1.png";
-import IMG17 from "../../../../assets/ProjectsDataImages/Mockups/pardotlp.png";
+import IMG12 from "../../../../assets/ProjectsDataImages/Mockups/pardotlp.png";
 
 export const all = [
   {
@@ -67,7 +67,7 @@ export const all = [
   {
     id: 10,
     title: "Pardot Landing Page Buildout",
-    img: IMG17,
+    img: IMG12,
     code: "/pardot",
   },
 ];
