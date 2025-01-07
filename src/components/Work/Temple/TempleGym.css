@@ -443,7 +443,7 @@ video {
 
 
 
-.brand__left_arts img {
+.brand__left_temple img {
     margin-left: 0rem;
     padding-left: 0rem;
     padding-right: 0rem;
@@ -452,7 +452,7 @@ video {
    transform: translate(30%, 0%);
 }
 
-.rebrand__container_arts>h3 {
+.rebrand__container_temple>h3 {
     font-size: 18px;
     font-weight: 100;
     text-align: center;
@@ -461,7 +461,7 @@ video {
     padding: 0;
 }
 
-.rebrand__container_arts>h6 {
+.rebrand__container_temple>h6 {
     padding-bottom: 0;
     margin-top: 1rem;
     margin-left: 5rem;
@@ -472,7 +472,7 @@ video {
 
 }
 
-.rebranding_arts {
+.rebranding_temple {
     margin-top: .6rem;
     margin-bottom: 1.5rem;
     font-weight: 200;
@@ -482,14 +482,14 @@ video {
     margin-right: 30px;
 }
 
-.brand__box3_arts {
+.brand__box3_temple {
     display: flex;
     flex-direction: column;
     height: 58vh;
     margin-top: 0;
 }
 
-.brand__left_arts>h3 {
+.brand__left_temple>h3 {
     font-size: 18px;
     font-weight: 300;
     text-align: center;
@@ -498,12 +498,12 @@ video {
     margin-top: 0rem;
 }
 
-.brand__title3_arts {
+.brand__title3_temple {
     margin-right: 0;
 
 }
 
-.brand__title3_arts>p {
+.brand__title3_temple>p {
     font-weight: 200;
     text-align: center;
     margin-left: 20px;
