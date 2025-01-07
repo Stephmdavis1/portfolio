@@ -196,7 +196,7 @@ const TempleGym = () => {
         </div>
 
         <div>
-          <img src={templebackground} alt="" className="temple__hero" />
+          <img src={templebackground} alt="" />
         </div>
       </div>
     </>
