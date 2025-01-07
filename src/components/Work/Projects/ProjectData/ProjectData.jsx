@@ -155,4 +155,10 @@ export const EmailMarketing = [
     img: IMG13,
     code: "/waterday",
   },
+  {
+    id: 10,
+    title: "Pardot Landing Page Buildout",
+    img: IMG12,
+    code: "/pardot",
+  },
 ];
