@@ -524,6 +524,9 @@ video {
 }
 
 @media only screen and (max-width: 650px) {
+.temple__title{
+    margin-left: 0rem;
+}
 .img__container_temple img{
     height: 40vh;
 }
@@ -535,11 +538,9 @@ video {
 }
 
 @media only screen and (max-width: 450px) {
-.temple__title{
-    margin-left: 0rem;
-}
+
 #hero__details1_temple{
-    padding-left: 20;
+    padding-left: 20px;
 }
 .temple_btn{
     margin-top: .5rem;
