@@ -51,7 +51,7 @@ export default function Career() {
               meaningless designs. I realized that this feeling was stemming
               from a lack of purpose around my work.
             </p>
-            <br />
+            
             <img src={IMG3} alt="Stephanie Davis" className="hello__pic3" />
             <p className="hello_paragraph_career">
               So I decided to dig in and evaluate my own skills, deepening my

@@ -164,9 +164,8 @@
     gap: 40px;
   }
   .hello__pic3{
-  
-  margin: 1rem 1rem 2rem 1rem; 
-    
+    display: none
+
   }
   .career__header_career{
   padding: 0rem 1rem;
@@ -176,9 +175,6 @@
   }
   .goals{
     padding: 1rem 1rem 0rem;
-}
-.hello__pic3{
-  height: 20em; 
 }
 .hello__pic4{
   margin: 1rem 1rem 0rem 1rem; 
