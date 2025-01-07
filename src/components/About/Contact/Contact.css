@@ -73,3 +73,10 @@ hr {
     height: .5rem;
     width: 15vw;
 }
+
+@media only screen and (max-width: 1000px) {
+  .contact__copy {
+   margin: 2rem;
+  }
+
+}
