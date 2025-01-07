@@ -6,7 +6,7 @@ import IMG13 from "../../../../assets/ProjectsDataImages/Mockups/SR.png";
 import IMG14 from "../../../../assets/ProjectsDataImages/Mockups/ArtsCorner.png";
 import IMG15 from "../../../../assets/ProjectsDataImages/Mockups/JVMI.png";
 import IMG16 from "../../../../assets/ProjectsDataImages/Mockups/SR1.png";
-import IMG12 from "../../../../assets/ProjectsDataImages/Mockups/fullscreennew.png";
+import IMG12 from "../../../../assets/ProjectsDataImages/Mockups/newdp.png";
 
 export const all = [
   {
