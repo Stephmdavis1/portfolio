@@ -41,7 +41,7 @@ function App() {
           <Route path="/NewProject" element={<NewProject />} />
           <Route path="/BlogDetails/:id" element={<BlogDetails />} />
           <Route path="/BlogLists" element={<BlogLists />} />
-          <Route path="/Pardot" element={<Pardot />} />
+          <Route path="/pardot" element={<Pardot />} />
         </Routes>
       </BrowserRouter>
      
