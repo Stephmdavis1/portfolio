@@ -421,7 +421,7 @@ video {
     }
 
     .brand__box3 {
-        display: flex;
+        display: flex !important;
         flex-direction: column;
         height: 58vh;
         margin-top: 0;
