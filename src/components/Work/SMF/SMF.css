@@ -520,4 +520,12 @@ video {
 .smf__title{
     font-size: 1.5rem;
 }
+.smf_btn{
+    margin-top: .5rem;
+    
+}
+#hero__details_smf {
+    padding-left: 20px;
+   
+}
 }
