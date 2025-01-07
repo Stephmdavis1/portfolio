@@ -15,7 +15,7 @@ import Resume from "./pages/Resume.jsx"
 import NewProject from "./pages/NewProject.jsx"
 import BlogLists from "./components/Blog/BlogLists.jsx"
 import BlogDetails from "./components/Blog/BlogDetails.jsx"
-import Pardot from "./pages/Pardot.jsx/"
+import Pardot from "./pages/Pardot.jsx"
 
 
 
