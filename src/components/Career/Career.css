@@ -147,3 +147,37 @@
     }
   
   }
+  @media only screen and (max-width: 400px) {
+
+    .greeting {
+      font-size: 10rem;
+      margin: 10rem 0rem 8rem;
+    }
+    .hello_header1 {
+      font-size: 1.5rem;
+    }
+    .hello_paragraph_career {
+      padding: 2rem 1rem 1rem;
+      
+  }
+  .box_career_career{
+    gap: 40px;
+  }
+  .hello__pic3{
+  
+  margin: 1rem 1rem 2rem 1rem; 
+    
+  }
+  .career__header_career{
+  padding: 0rem 1rem;
+  }
+  .career__title_career {
+    padding: 0rem 1rem;
+  }
+  .goals{
+    padding: 1rem 1rem 0rem;
+}
+.hello__pic4{
+  margin: 1rem 1rem 0rem 1rem; 
+}
+  }
