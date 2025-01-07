@@ -164,7 +164,7 @@ const TempleGym = () => {
           <div className="brand__left_temple2">
             <h3>The Conclusion</h3>
           </div>
-          <div className="brand__right_temple3">
+          <div className="brand__right">
             <article className="brand__description_temple">
               <br />
               <p>
