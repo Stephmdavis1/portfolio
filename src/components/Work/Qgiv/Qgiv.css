@@ -150,9 +150,6 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .img__container_qgiv{
-        height: 50vh;
-    }
 }
 @media only screen and (max-width: 450px) {
 .brand__box_qgiv {
@@ -160,7 +157,7 @@
 
 }
 .brand__box_qgiv2 {
-    margin-left: 3rem;
+    margin: 0rem 3rem;
 
 }
 .brand__description_qgiv{
