@@ -71,10 +71,10 @@ export default function landing() {
               area within your email or landing page that you can change without
               impacting how the template is coded.
             </p>
-            <img src={pardotcode} alt="" className="img__container_pardot2" />
           </div>
         </div>
       </div>
+      <img src={pardotcode} alt="" className="img__container_pardot2" />
     </>
   );
 }
