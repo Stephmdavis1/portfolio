@@ -1,7 +1,7 @@
 import pardotcode from "../assets/ProjectsDataImages/Pardot/pardotcode.png";
 import "../components/Work/Pardot/pardot.css";
 
-export default function PardotTwo() {
+export default function pardotTwo() {
   return (
     <>
       <div className="port__container_pardot">
