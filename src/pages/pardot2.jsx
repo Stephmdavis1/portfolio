@@ -52,7 +52,10 @@ export default function Pardot() {
         </div>
       </div>
 
-      <video controls type="video/mp4" className="img__container_pardot" />
+      <video src="https://drive.google.com/file/d/19PrdvOGQjis-ibv8cBl34KYZmxUL6oj7/view?usp=share_link"
+        controls
+        type="video/mp4" 
+        className="img__container_pardot" />
 
       <div className="brand__box_pardot">
         <div className="brand__left_pardot">
