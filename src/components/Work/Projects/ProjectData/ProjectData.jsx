@@ -7,7 +7,7 @@ import IMG14 from "../../../../assets/ProjectsDataImages/Mockups/ArtsCorner.png"
 import IMG15 from "../../../../assets/ProjectsDataImages/Mockups/JVMI.png";
 import IMG16 from "../../../../assets/ProjectsDataImages/Mockups/SR1.png";
 import IMG12 from "../../../../assets/ProjectsDataImages/Mockups/newdp.png";
-import IMG17 from "../../../../assets/ProjectsDataImages/Mockups/pardotlp.png";
+import IMG11 from "../../../../assets/ProjectsDataImages/Mockups/pardotlp.png";
 
 export const all = [
   {
@@ -74,8 +74,8 @@ export const all = [
   {
     id: 14,
     title: "Pardot landing Page Buildout",
-    img: IMG17,
-    code: "/pardot2",
+    img: IMG11,
+    code: "/landing",
   },
 ];
 
@@ -96,7 +96,7 @@ export const WebProjects = [
     id: 2,
     title: "Stephanie Marie Fitness",
     img: IMG8,
-    code: "",
+    code: "/SMF",
   },
   {
     id: 4,
@@ -171,7 +171,7 @@ export const EmailMarketing = [
   {
     id: 14,
     title: "Pardot landing Page Buildout",
-    img: IMG17,
-    code: "/pardot2",
+    img: IMG11,
+    code: "/landing",
   },
 ];
