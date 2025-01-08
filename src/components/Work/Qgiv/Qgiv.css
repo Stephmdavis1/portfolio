@@ -149,11 +149,11 @@
 
 }
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
     .img__container_qgiv{
         height: 50vh;
     }
-}
+} */
 @media only screen and (max-width: 450px) {
 .brand__box_qgiv {
     margin: 0rem 3rem;
