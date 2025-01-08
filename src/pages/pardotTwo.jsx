@@ -21,8 +21,8 @@ export default function pardotTwo() {
               clients. I've even attended a couple Salesforce Dreamforce
               Conferences and love learning about the new features each platform
               has to offer. The latest project I've been working on is Landing
-              Pages for our clients specifically built with Pardot (now called
-              Marketing Cloud Account Engagement).
+              Pages for our clients specifically built with Pardot - now called
+              Marketing Cloud Account Engagement.
             </p>
             <br />
             <p>
@@ -31,8 +31,8 @@ export default function pardotTwo() {
               custom email content out to each person that signed up. Up until
               this point, our client was using pre-built templates in Pardot to
               create these Landing Pages. The problem was that Pardots pre-built
-              templates are not mobile responsive (which in 2024 is honestly
-              unacceptable) so the client and designers were having to stick to
+              templates are not mobile responsive which in 2024 is honestly
+              unacceptable. This caused the client and designers to have to stick to
               strict dimensions on the landing page to make sure it works for
               all users on desktop and mobile. 
             </p>
@@ -52,10 +52,10 @@ export default function pardotTwo() {
         </div>
       </div>
 
-      <video src="https://drive.google.com/file/d/19PrdvOGQjis-ibv8cBl34KYZmxUL6oj7/view?usp=share_link"
+      {/* <video src="https://drive.google.com/file/d/19PrdvOGQjis-ibv8cBl34KYZmxUL6oj7/view?usp=share_link"
         controls
         type="video/mp4" 
-        className="img__container_pardot" />
+        className="img__container_pardot" /> */}
 
       <div className="brand__box_pardot">
         <div className="brand__left_pardot">
