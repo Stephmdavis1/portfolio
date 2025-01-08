@@ -168,6 +168,6 @@
     margin-right: 0px;
 }
 .img__container_qgiv2  {
-    transform: translate(0%);
+    transform: translate(0%) !important;
  }
 }
