@@ -7,6 +7,7 @@ import IMG14 from "../../../../assets/ProjectsDataImages/Mockups/ArtsCorner.png"
 import IMG15 from "../../../../assets/ProjectsDataImages/Mockups/JVMI.png";
 import IMG16 from "../../../../assets/ProjectsDataImages/Mockups/SR1.png";
 import IMG12 from "../../../../assets/ProjectsDataImages/Mockups/newdp.png";
+import IMG12 from "../../../../assets/ProjectsDataImages/Mockups/pardotlp.png";
 
 export const all = [
   {
@@ -69,6 +70,12 @@ export const all = [
     title: "Qgiv Donation Page",
     img: IMG12,
     code: "/pardot",
+  },
+  {
+    id: 14,
+    title: "Pardot landing Page Buildout",
+    img: IMG17,
+    code: "/pardot2",
   },
 ];
 
