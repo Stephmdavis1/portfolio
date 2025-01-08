@@ -156,12 +156,16 @@
 }
 @media only screen and (max-width: 450px) {
 .brand__box_qgiv {
-    margin-left: 3rem;
+    margin: 0rem 3rem;
 
 }
 .brand__box_qgiv2 {
     margin-left: 3rem;
 
+}
+.brand__description_qgiv{
+    margin-top: 10px;
+    margin-right: 0px;
 }
 
 }
