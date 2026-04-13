@@ -204,4 +204,16 @@ export const CaseStudies = [
     img: stripeimg,
     code: "ebooks",
   },
+  {
+    id: 13,
+    title: "Qgiv Donation Page",
+    img: IMG12,
+    code: "/qgiv",
+  },
+  {
+    id: 14,
+    title: "Pardot landing Page Buildout",
+    img: IMG11,
+    code: "/landing",
+  },
 ];
