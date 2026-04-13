@@ -5,8 +5,9 @@ import {
   all,
   WebProjects,
   ECommerceProjects,
-  ReBranding,
+  Rebranding,
   EmailMarketing,
+  CaseStudies,
 } from "./ProjectData/ProjectData";
 
 export default function Projects() {
@@ -27,11 +28,15 @@ export default function Projects() {
     },
     {
       id: "rebranding",
-      title: "ReBranding",
+      title: "Rebranding",
     },
     {
       id: "marketing",
       title: "Email Marketing",
+    },
+    {
+      id: "casestudies",
+      title: "Case Studies",
     },
   ];
 
@@ -47,10 +52,13 @@ export default function Projects() {
         setData(ECommerceProjects);
         break;
       case "rebranding":
-        setData(ReBranding);
+        setData(Rebranding);
         break;
       case "marketing":
         setData(EmailMarketing);
+        break;
+      case "casestudies":
+        setData(CaseStudies);
         break;
       default:
         setData(all);
@@ -60,11 +68,15 @@ export default function Projects() {
   return (
     <div className="project" id="project">
       <h1 className="project__header">WORK</h1>
-      <p className="copy__header">Here is a collection of projects I've had the chance to work on. I'm also coding for a team over at Masterworks and lately I've been working on email marketing, branding and web development.</p>
+      <p className="copy__header">
+        Here is a collection of projects I've had the chance to work on. I'm
+        also coding for a team over at Masterworks and lately I've been working
+        on email marketing, branding and web development.
+      </p>
       <ul className="project__pills">
         {list.map((item) => (
           <ProjectList
-          key={item.id}
+            key={item.id}
             title={item.title}
             active={selected === item.id}
             setSelected={setSelected}
@@ -74,9 +86,11 @@ export default function Projects() {
       </ul>
       <div className="container__project">
         {data.map((d) => (
-          <div className="item">
-            <a href={d.code} target="_blank"> <img className="project__img" src={d.img} alt="" /></a>
-            {/* <p className='project__name'> {d.title} </p> */}
+          <div className="item" key={d.title}>
+            <a href={d.code} target="_blank">
+              {" "}
+              <img className="project__img" src={d.img} alt="" />
+            </a>
             <a
               href={d.link}
               className="project__name"

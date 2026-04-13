@@ -48,8 +48,8 @@ export const all = [
   //   code: "https://github.com/Stephmdavis1/react-portfolio-website",
   // },
   {
-    id: 12,
-    title: "Send Relief Email Marketing",
+    id: 4564,
+    title: "Send Relief Email Marketing: Give Clean Water",
     img: IMG16,
     code: "/GiveCleanWater",
   },
@@ -61,7 +61,7 @@ export const all = [
   },
   {
     id: 10,
-    title: "Send Relief Email Marketing",
+    title: "Send Relief Email Marketing: Water Day",
     img: IMG13,
     code: "/waterday",
   },
@@ -128,7 +128,7 @@ export const ECommerceProjects = [
   },
 ];
 
-export const ReBranding = [
+export const Rebranding = [
   {
     id: 1,
     title: "Sippers Coffeehouse",
@@ -151,8 +151,8 @@ export const ReBranding = [
 
 export const EmailMarketing = [
   {
-    id: 12,
-    title: "Send Relief Email Marketing",
+    id: 4564,
+    title: "Send Relief Email Marketing: Give Clean Water",
     img: IMG16,
     code: "/GiveCleanWater",
   },
@@ -179,5 +179,15 @@ export const EmailMarketing = [
     title: "Pardot landing Page Buildout",
     img: IMG11,
     code: "/landing",
+  },
+];
+
+
+export const CaseStudies = [
+  {
+    id: 15,
+    title: "Contact Form Case Study",
+    img: IMG11,
+    code: "contact-form",
   },
 ];
