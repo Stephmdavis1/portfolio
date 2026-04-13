@@ -308,7 +308,7 @@ export default function ContactFormCaseStudy() {
           </a>
           <div className="cs-next">
             <span className="cs-meta-label">Next Case Study</span>
-            <a href="/case-study/stripe-ebook" className="cs-next-link">
+            <a href="/ebooks" className="cs-next-link">
               Stripe + Ebook Download Flow →
             </a>
           </div>

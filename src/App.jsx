@@ -15,9 +15,10 @@ import Resume from "./pages/Resume.jsx"
 import NewProject from "./pages/NewProject.jsx"
 import BlogLists from "./components/Blog/BlogLists.jsx"
 import BlogDetails from "./components/Blog/BlogDetails.jsx"
-import Pardot from "./pages/pardot.jsx"
+import Qgiv from "./pages/qgiv.jsx"
 import Landing from "./pages/landing.jsx"
 import ContactFormCaseStudy from './pages/ContactFormCaseStudy.jsx'
+import CaseStudyStripeEbook from './pages/ebooks.jsx'
 
 
 
@@ -43,9 +44,10 @@ function App() {
           <Route path="/NewProject" element={<NewProject />} />
           <Route path="/BlogDetails/:id" element={<BlogDetails />} />
           <Route path="/BlogLists" element={<BlogLists />} />
-          <Route path="/pardot" element={<Pardot />} />
+          <Route path="/qgiv" element={<Qgiv />} />
           <Route path="/landing" element={<Landing />} />
           <Route path="/contact-form" element={<ContactFormCaseStudy />} />
+          <Route path="/ebooks" element={<CaseStudyStripeEbook />} />
         </Routes>
       </BrowserRouter>
      

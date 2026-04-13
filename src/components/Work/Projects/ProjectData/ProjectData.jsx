@@ -8,6 +8,8 @@ import IMG15 from "../../../../assets/ProjectsDataImages/Mockups/JVMI.png";
 import IMG16 from "../../../../assets/ProjectsDataImages/Mockups/SR1.png";
 import IMG12 from "../../../../assets/ProjectsDataImages/Mockups/newdp.png";
 import IMG11 from "../../../../assets/ProjectsDataImages/Mockups/pardotlp.png";
+import stripeimg from "../../../../assets/ProjectsDataImages/CaseStudies/stripe+ebook.png";
+import contactimg from "../../../../assets/ProjectsDataImages/CaseStudies/contactform.png";
 
 export const all = [
   {
@@ -80,8 +82,14 @@ export const all = [
   {
     id: 15,
     title: "Contact Form Case Study",
-    img: IMG11,
+    img: contactimg,
     code: "contact-form",
+  },
+  {
+    id: 3214,
+    title: "Stripe + Ebook Case Study",
+    img: stripeimg,
+    code: "ebooks",
   },
 ];
 
@@ -187,7 +195,13 @@ export const CaseStudies = [
   {
     id: 15,
     title: "Contact Form Case Study",
-    img: IMG11,
+    img: contactimg,
     code: "contact-form",
+  },
+  {
+    id: 3214,
+    title: "Stripe + Ebook Case Study",
+    img: stripeimg,
+    code: "ebooks",
   },
 ];
