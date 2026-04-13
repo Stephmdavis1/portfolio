@@ -1,6 +1,7 @@
 import pardotcode from "../assets/ProjectsDataImages/Pardot/pardotcode.png";
 import { useEffect, useRef } from "react";
 import "../components/Work/Pardot/pardot.css";
+import landingimg from "../assets/ProjectsDataImages/Pardot/pardotlp.png"
 
 const techStack = {
   accent: ["Pardot / MC Account Engagement", "Bootstrap", "Pardot Content Regions"],
@@ -280,7 +281,21 @@ export default function PardotCaseStudy() {
             ))}
           </div>
         </div>
-
+        {/* Screenshot */}
+        <div className="cs-section cs-fade" ref={addRef}>
+          <p className="cs-section-label">The Build</p>
+          <h2 className="cs-section-heading">The finished variant</h2>
+          <p className="cs-body-text">
+           Triple column layout with the logo and the devotional image at the top of the page with a dark mode built in.
+          </p>
+        <div className="cs-img-container">
+            <img
+              src={landingimg}
+              alt="Redesigned Qgiv donation page showing single column layout with form above the fold"
+              className="cs-img"
+            />
+          </div>
+      </div>
       </div>
 
       {/* ── FOOTER NAV ── */}
