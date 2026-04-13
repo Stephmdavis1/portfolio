@@ -71,7 +71,7 @@ export const all = [
     id: 13,
     title: "Qgiv Donation Page",
     img: IMG12,
-    code: "/pardot",
+    code: "/qgiv",
   },
   {
     id: 14,
@@ -180,7 +180,7 @@ export const EmailMarketing = [
     id: 13,
     title: "Qgiv Donation Page",
     img: IMG12,
-    code: "/pardot",
+    code: "/qgiv",
   },
   {
     id: 14,
