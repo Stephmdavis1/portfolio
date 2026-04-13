@@ -17,6 +17,7 @@ import BlogLists from "./components/Blog/BlogLists.jsx"
 import BlogDetails from "./components/Blog/BlogDetails.jsx"
 import Pardot from "./pages/pardot.jsx"
 import Landing from "./pages/landing.jsx"
+import ContactFormCaseStudy from './pages/ContactFormCaseStudy.jsx'
 
 
 
@@ -44,6 +45,7 @@ function App() {
           <Route path="/BlogLists" element={<BlogLists />} />
           <Route path="/pardot" element={<Pardot />} />
           <Route path="/landing" element={<Landing />} />
+          <Route path="/contact-form" element={<ContactFormCaseStudy />} />
         </Routes>
       </BrowserRouter>
      

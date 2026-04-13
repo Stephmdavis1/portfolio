@@ -77,6 +77,12 @@ export const all = [
     img: IMG11,
     code: "/landing",
   },
+  {
+    id: 15,
+    title: "Contact Form Case Study",
+    img: IMG11,
+    code: "contact-form",
+  },
 ];
 
 export const WebProjects = [
