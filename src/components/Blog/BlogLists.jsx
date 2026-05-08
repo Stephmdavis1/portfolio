@@ -5,7 +5,12 @@ import './BlogLists.css'
 
 const BlogList = () => {
   const [blogPosts, setBlogPosts] = useState([])
-  const client = createClient({ space: import.meta.env.VITE_SPACE_ID, accessToken: import.meta.env.VITE_CONTENT_DELIVERY_API_KEY })
+  const client = createClient(
+    { 
+      space: import.meta.env.VITE_SPACE_ID, 
+      accessToken: import.meta.env.VITE_CONTENT_DELIVERY_API_KEY 
+    }
+    )
 
 
 

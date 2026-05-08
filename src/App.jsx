@@ -19,6 +19,7 @@ import Qgiv from "./pages/qgiv.jsx"
 import Landing from "./pages/landing.jsx"
 import ContactFormCaseStudy from './pages/ContactFormCaseStudy.jsx'
 import CaseStudyStripeEbook from './pages/ebooks.jsx'
+import { Analytics } from '@vercel/analytics/next';
 
 
 
@@ -50,7 +51,7 @@ function App() {
           <Route path="/ebooks" element={<CaseStudyStripeEbook />} />
         </Routes>
       </BrowserRouter>
-     
+      <Analytics />
     </>
   )
 }
